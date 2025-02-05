@@ -17,3 +17,4 @@ documentation = "https://github.com/rogerioadris/rust-usbtmc"
 [dependencies]
 rusb = "0.9.4"
 byteorder = "1.5"
+clap = { version = "4.5.27", features = ["derive"] }
